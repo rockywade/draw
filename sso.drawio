@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-13T06:06:30.572Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="G_ysu7ZBe6kSDWMdHeGM" version="14.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-13T06:08:05.195Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="rPcTYbXrKEZSCscf9ciL" version="14.5.8" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1038" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -198,7 +198,7 @@
             <mxPoint x="210" y="780" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="E0K9IzBjebCavO_bWUDb-57" value="认证cookie" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" parent="1">
+        <mxCell id="E0K9IzBjebCavO_bWUDb-57" value="&lt;span style=&quot;color: rgb(204 , 0 , 0)&quot;&gt;3、检查cookie有效性&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="960" y="1610" as="sourcePoint" />
             <Array as="points">
@@ -234,9 +234,10 @@
             <mxPoint x="875" y="1030" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="E0K9IzBjebCavO_bWUDb-68" value="重定向：https://server.sso.com/login?service=http%3A%2F%2Fapp2.xx.com" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="E0K9IzBjebCavO_bWUDb-66" parent="1">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="E0K9IzBjebCavO_bWUDb-68" value="&lt;font color=&quot;#cc0000&quot;&gt;1、重定向：https://server.sso.com/login?service=http%3A%2F%2Fapp2.xx.com&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="E0K9IzBjebCavO_bWUDb-66" parent="1">
+          <mxGeometry x="-0.0068" relative="1" as="geometry">
             <mxPoint x="210" y="1088" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="E0K9IzBjebCavO_bWUDb-70" value="请求：https://server.sso.com/login?service=http%3A%2F%2Fapp2.xx.com" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="E0K9IzBjebCavO_bWUDb-69" parent="1">
@@ -261,7 +262,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="E0K9IzBjebCavO_bWUDb-77" value="请求：&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;https://server.sso.com&lt;br&gt;&lt;/span&gt;/p3/serviceValidate&lt;br&gt;?ticket=ST-xxx&lt;br&gt;&amp;amp;service=&lt;br&gt;http%3A%2F%2Fapp2.xx.com" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1.42;entryY=0.118;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="E0K9IzBjebCavO_bWUDb-78">
+        <mxCell id="E0K9IzBjebCavO_bWUDb-77" value="&lt;font color=&quot;#cc0000&quot;&gt;2、请求：&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;https://server.sso.com&lt;br&gt;&lt;/span&gt;/p3/serviceValidate&lt;br&gt;?ticket=ST-xxx&lt;br&gt;&amp;amp;service=&lt;br&gt;http%3A%2F%2Fapp2.xx.com&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1.42;entryY=0.118;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="E0K9IzBjebCavO_bWUDb-78">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="941" y="1391" as="sourcePoint" />
           </mxGeometry>
