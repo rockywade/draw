@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-13T03:49:53.774Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="P60dBueSD9SODe5KdOL8" version="14.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-13T05:01:46.957Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="vefT3iUD4qBtuk7Es8aX" version="14.5.8" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -23,12 +23,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="E0K9IzBjebCavO_bWUDb-61" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="7baba1c4bc27f4b0-2">
-          <mxGeometry x="45" y="950" width="10" height="420" as="geometry" />
+          <mxGeometry x="45" y="950" width="10" height="680" as="geometry" />
         </mxCell>
         <mxCell id="E0K9IzBjebCavO_bWUDb-74" value="请求：&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;http://app2.xx.com?ticket=TSxxx&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="7baba1c4bc27f4b0-2">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="60" y="1190" as="sourcePoint" />
             <mxPoint x="790" y="1190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E0K9IzBjebCavO_bWUDb-81" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;http://app2.xx.com&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=-0.38;entryY=0.703;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="7baba1c4bc27f4b0-2" target="E0K9IzBjebCavO_bWUDb-73">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="60" y="1490" as="sourcePoint" />
+            <mxPoint x="140" y="1490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-3" value="单点登录认证系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
@@ -65,6 +71,14 @@
         <mxCell id="E0K9IzBjebCavO_bWUDb-69" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="7baba1c4bc27f4b0-4">
           <mxGeometry x="45" y="1060" width="10" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="E0K9IzBjebCavO_bWUDb-78" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="7baba1c4bc27f4b0-4">
+          <mxGeometry x="45" y="1300" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="E0K9IzBjebCavO_bWUDb-79" value="返回XML" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1.26;exitY=0.738;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="7baba1c4bc27f4b0-4" source="E0K9IzBjebCavO_bWUDb-78">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="1367" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="7baba1c4bc27f4b0-5" value="APP2" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="900" y="80" width="100" height="1680" as="geometry" />
         </mxCell>
@@ -72,7 +86,7 @@
           <mxGeometry x="45" y="970" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="E0K9IzBjebCavO_bWUDb-73" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="7baba1c4bc27f4b0-5">
-          <mxGeometry x="45" y="1180" width="10" height="80" as="geometry" />
+          <mxGeometry x="45" y="1180" width="10" height="440" as="geometry" />
         </mxCell>
         <mxCell id="E0K9IzBjebCavO_bWUDb-3" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="70" y="80" width="20" height="1680" as="geometry" />
@@ -185,12 +199,12 @@
         </mxCell>
         <mxCell id="E0K9IzBjebCavO_bWUDb-57" value="认证cookie" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="730" y="840" as="sourcePoint" />
+            <mxPoint x="960" y="1610" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="760" y="840" />
-              <mxPoint x="760" y="870" />
+              <mxPoint x="990" y="1610" />
+              <mxPoint x="990" y="1640" />
             </Array>
-            <mxPoint x="730" y="870" as="targetPoint" />
+            <mxPoint x="960" y="1640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="E0K9IzBjebCavO_bWUDb-58" value="返回请求的内容" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
@@ -244,6 +258,34 @@
           <mxGeometry x="0.0495" relative="1" as="geometry">
             <mxPoint x="210" y="1216" as="targetPoint" />
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E0K9IzBjebCavO_bWUDb-77" value="请求：&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;https://server.sso.com&lt;br&gt;&lt;/span&gt;/p3/serviceValidate&lt;br&gt;?ticket=ST-xxx&lt;br&gt;&amp;amp;service=&lt;br&gt;http%3A%2F%2Fapp2.xx.com" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1.42;entryY=0.118;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="E0K9IzBjebCavO_bWUDb-78">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="941" y="1391" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E0K9IzBjebCavO_bWUDb-80" value="set-cookie&lt;br&gt;&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;重定向：http://app2.xx.com&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
+          <mxGeometry x="-0.0685" relative="1" as="geometry">
+            <mxPoint x="940" y="1520" as="sourcePoint" />
+            <mxPoint x="210" y="1520" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E0K9IzBjebCavO_bWUDb-82" value="认证cookie" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="731" y="850" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="761" y="850" />
+              <mxPoint x="761" y="880" />
+            </Array>
+            <mxPoint x="731" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E0K9IzBjebCavO_bWUDb-83" value="返回请求的内容" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="940" y="1680" as="sourcePoint" />
+            <mxPoint x="210" y="1680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
