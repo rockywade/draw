@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-13T05:38:26.650Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="cj_VRjzkpC5QSOinEE3C" version="20.6.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-12-13T05:52:45.659Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="H7nS_irC41x0iIXDOcbu" version="20.6.2" type="github" pages="2">
   <diagram name="商品" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">
     <mxGraphModel dx="1038" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -103,7 +103,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="kmgReaKRsroSAFAUPFtD" name="用户">
-    <mxGraphModel dx="1038" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -126,7 +126,7 @@
         </mxCell>
         <mxCell id="isvnemzQAago53b3Zl2U-3" value="n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="isvnemzQAago53b3Zl2U-1" vertex="1" connectable="0">
           <mxGeometry x="-0.6657" y="-1" relative="1" as="geometry">
-            <mxPoint x="2" y="-11" as="offset" />
+            <mxPoint x="-11" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="isvnemzQAago53b3Zl2U-4" value="user_group_user" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="isvnemzQAago53b3Zl2U-1" vertex="1" connectable="0">
@@ -174,7 +174,7 @@
         </mxCell>
         <mxCell id="isvnemzQAago53b3Zl2U-14" value="n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="isvnemzQAago53b3Zl2U-12" vertex="1" connectable="0">
           <mxGeometry x="-0.6657" y="-1" relative="1" as="geometry">
-            <mxPoint x="2" y="-10" as="offset" />
+            <mxPoint x="-9" y="-11" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="isvnemzQAago53b3Zl2U-15" value="jhi_role_permision" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="isvnemzQAago53b3Zl2U-12" vertex="1" connectable="0">
