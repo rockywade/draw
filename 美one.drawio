@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-27T13:54:27.780Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="U8HL553K_vAyU1QjpkoQ" version="20.7.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-12-27T13:55:38.632Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="ecLGa3B2GynclC32vPNH" version="20.7.4" type="github" pages="3">
   <diagram name="商品" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">
     <mxGraphModel dx="1050" dy="1786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -327,7 +327,7 @@
             <mxPoint x="700" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iJFXVLA7aNA4dNakx_lX-3" value="Use" style="endArrow=open;endSize=12;dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="cuUKVli-UwbbVTlJG3BX-9" target="uM8Gslu0TCIED0904_-n-2">
+        <mxCell id="iJFXVLA7aNA4dNakx_lX-3" value="Use" style="endArrow=open;endSize=12;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uM8Gslu0TCIED0904_-n-2" target="cuUKVli-UwbbVTlJG3BX-9">
           <mxGeometry x="298.92" y="103.3599999999999" as="geometry">
             <mxPoint x="750" y="385" as="sourcePoint" />
             <mxPoint x="590" y="380" as="targetPoint" />
