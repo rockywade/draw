@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-27T13:36:27.427Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="4fZHJM3CfxVgnzO4CTmh" version="20.7.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-12-27T13:37:12.647Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="_bQboOptrFXghImflnih" version="20.7.4" type="github" pages="2">
   <diagram name="商品" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">
     <mxGraphModel dx="1050" dy="1786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -85,7 +85,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GjRLE1qKXkt9nsyT0Dci-132" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;ProductAttrValue&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;u style=&quot;&quot;&gt;&lt;b&gt;商品属性值&lt;/b&gt;&lt;br&gt;&lt;/u&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;spuId&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;商品spuId&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;skuId&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;商品skuId&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;attributeId&amp;nbsp; &amp;nbsp; 属性项id&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;attrValueId&amp;nbsp; &amp;nbsp;属性值id&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;value&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;属性值&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;orderSort&amp;nbsp; &amp;nbsp; 排序&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;isSaleAttr&amp;nbsp; &amp;nbsp; 是否销售属性&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
-          <mxGeometry x="220" y="970" width="160" height="160" as="geometry" />
+          <mxGeometry x="160" y="760" width="160" height="160" as="geometry" />
         </mxCell>
         <mxCell id="GjRLE1qKXkt9nsyT0Dci-133" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;jumpSize=6;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="GjRLE1qKXkt9nsyT0Dci-132" target="GjRLE1qKXkt9nsyT0Dci-126" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
