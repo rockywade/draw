@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-27T13:36:04.565Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="x_RVTyTYNjtxDxlXTEWR" version="20.7.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-12-27T13:36:27.427Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="4fZHJM3CfxVgnzO4CTmh" version="20.7.4" type="github" pages="2">
   <diagram name="商品" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">
     <mxGraphModel dx="1050" dy="1786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -135,6 +135,12 @@
         <mxCell id="nIlfs-LqMGZNhN_kB8W_-4" value="1" style="resizable=0;align=right;verticalAlign=top;labelBackgroundColor=#ffffff;fontSize=10;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" connectable="0" vertex="1" parent="nIlfs-LqMGZNhN_kB8W_-2">
           <mxGeometry x="1" relative="1" as="geometry">
             <mxPoint x="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nIlfs-LqMGZNhN_kB8W_-5" value="Use" style="endArrow=open;endSize=12;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nIlfs-LqMGZNhN_kB8W_-1" target="GjRLE1qKXkt9nsyT0Dci-122">
+          <mxGeometry x="288.92" y="93.3599999999999" as="geometry">
+            <mxPoint x="480" y="165" as="sourcePoint" />
+            <mxPoint x="353.68000000000006" y="165.4000000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
