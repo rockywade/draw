@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-27T13:43:32.783Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="WTEG61fEc5KEfGy9O2O2" version="20.7.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-12-27T13:43:52.543Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="ZvcWEIIeq76iFO-4U5Gh" version="20.7.4" type="github" pages="3">
   <diagram name="商品" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">
     <mxGraphModel dx="1050" dy="1786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -282,12 +282,12 @@
         </mxCell>
         <mxCell id="cuUKVli-UwbbVTlJG3BX-2" value="0..n" style="resizable=0;align=left;verticalAlign=top;labelBackgroundColor=#ffffff;fontSize=10;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" connectable="0" vertex="1" parent="cuUKVli-UwbbVTlJG3BX-1">
           <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="-35" y="-30" as="offset" />
+            <mxPoint x="-30" y="-30" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="cuUKVli-UwbbVTlJG3BX-3" value="1" style="resizable=0;align=right;verticalAlign=top;labelBackgroundColor=#ffffff;fontSize=10;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" connectable="0" vertex="1" parent="cuUKVli-UwbbVTlJG3BX-1">
           <mxGeometry x="1" relative="1" as="geometry">
-            <mxPoint x="20" as="offset" />
+            <mxPoint x="17" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
