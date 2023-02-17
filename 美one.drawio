@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-17T09:11:20.981Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="zz4leg9ws3n7JUWCBvwA" version="20.8.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-02-17T09:11:34.723Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="dEOTDDIBo_1qeyUC7Ri5" version="20.8.0" type="github" pages="5">
   <diagram name="商品" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">
     <mxGraphModel dx="1050" dy="1786" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -399,10 +399,14 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="mUqtH53PUUonid2cDGHT-4" value="0..n" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" connectable="0" vertex="1" parent="mUqtH53PUUonid2cDGHT-3">
-          <mxGeometry x="-1" relative="1" as="geometry" />
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="5" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="mUqtH53PUUonid2cDGHT-5" value="1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" connectable="0" vertex="1" parent="mUqtH53PUUonid2cDGHT-3">
-          <mxGeometry x="1" relative="1" as="geometry" />
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="15" y="-30" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
