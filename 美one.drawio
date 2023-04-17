@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-17T09:38:52.718Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="WZFpRY4zd5rnpwCjYzAJ" version="21.1.8" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-04-17T09:40:11.968Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="tGku7mqfhpKJDCtGNPyW" version="21.1.8" type="github" pages="7">
   <diagram name="商品" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">
     <mxGraphModel dx="1050" dy="1786" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -268,7 +268,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="NT1We_9h5WOlSeQwqxxz-79" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="NT1We_9h5WOlSeQwqxxz-79" value="" style="endArrow=none;html=1;rounded=0;dashed=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="50" y="630" as="sourcePoint" />
             <mxPoint x="1020" y="630" as="targetPoint" />
