@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-17T07:41:38.275Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="c6X2owhaB3oo_sKV_eqA" version="20.8.20" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-04-17T07:43:43.091Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="oruvdVwtZDuz4Wk0MY9i" version="20.8.20" type="github" pages="5">
   <diagram name="商品" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">
     <mxGraphModel dx="1050" dy="1786" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -520,6 +520,9 @@
         </mxCell>
         <mxCell id="ydibEglt0In1S4E0ARg2-31" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;CertSkuDocType&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;Sku和offer资质文件类型关联配置表&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp; certDocType&amp;nbsp;&amp;nbsp;资质文件类型" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" vertex="1" parent="1">
           <mxGeometry x="1000" y="500" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ydibEglt0In1S4E0ARg2-32" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;CertApprGroupConfig&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;审批配置表&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp;&amp;nbsp;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" vertex="1" parent="1">
+          <mxGeometry x="1330" y="500" width="150" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
