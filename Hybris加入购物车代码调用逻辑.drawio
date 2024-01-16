@@ -1,11 +1,11 @@
-<mxfile modified="2024-01-16T11:42:04.549Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="yAoicMGitVrSkXQk9X_X" version="22.1.16" type="github">
+<mxfile modified="2024-01-16T12:22:19.986Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="aLqJifuo0tlVKYy-QGsL" version="22.1.16" type="github">
   <diagram id="C2fSY1v2SiZeoUbDoYyL" name="Page-1">
-    <mxGraphModel dx="1242" dy="1604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1642" dy="1177" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="szzl8ItCSpbSYo8TicJm-1" value="DefaultCartFacade" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="-250" width="260" height="60" as="geometry" />
+          <mxGeometry x="430" y="-230" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="szzl8ItCSpbSYo8TicJm-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="szzl8ItCSpbSYo8TicJm-1">
           <mxGeometry y="26" width="260" height="8" as="geometry" />
@@ -23,7 +23,7 @@
           <mxGeometry y="34" width="260" height="26" as="geometry" />
         </mxCell>
         <mxCell id="szzl8ItCSpbSYo8TicJm-9" value="DefaultCommerceAddToCartStrategy" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="20" width="260" height="60" as="geometry" />
+          <mxGeometry x="430" y="20" width="260" height="138" as="geometry" />
         </mxCell>
         <mxCell id="szzl8ItCSpbSYo8TicJm-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="szzl8ItCSpbSYo8TicJm-9">
           <mxGeometry y="26" width="260" height="8" as="geometry" />
@@ -31,8 +31,17 @@
         <mxCell id="szzl8ItCSpbSYo8TicJm-11" value="+&amp;nbsp;addToCart&lt;span style=&quot;background-color: initial;&quot;&gt;(params):&amp;nbsp;&lt;/span&gt;CommerceCartParameter" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="szzl8ItCSpbSYo8TicJm-9">
           <mxGeometry y="34" width="260" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="szzl8ItCSpbSYo8TicJm-31" value="doAddToCart(addToCart第一步&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="szzl8ItCSpbSYo8TicJm-9">
+          <mxGeometry y="60" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="szzl8ItCSpbSYo8TicJm-32" value="afterAddToCart(addToCart第二步)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="szzl8ItCSpbSYo8TicJm-9">
+          <mxGeometry y="86" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="szzl8ItCSpbSYo8TicJm-33" value="mergeEntry(addToCart第三步)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="szzl8ItCSpbSYo8TicJm-9">
+          <mxGeometry y="112" width="260" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="szzl8ItCSpbSYo8TicJm-12" value="DefaultCommerceCartCalculationStrategy" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="140" width="260" height="60" as="geometry" />
+          <mxGeometry x="430" y="240" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="szzl8ItCSpbSYo8TicJm-13" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="szzl8ItCSpbSYo8TicJm-12">
           <mxGeometry y="26" width="260" height="8" as="geometry" />
@@ -46,17 +55,48 @@
             <mxPoint x="510" y="30" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="szzl8ItCSpbSYo8TicJm-16" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.496;exitY=0.962;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="szzl8ItCSpbSYo8TicJm-4" target="szzl8ItCSpbSYo8TicJm-6">
+        <mxCell id="szzl8ItCSpbSYo8TicJm-16" value="2" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.496;exitY=0.962;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="szzl8ItCSpbSYo8TicJm-4" target="szzl8ItCSpbSYo8TicJm-6">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="590" y="-180" as="sourcePoint" />
             <mxPoint x="570" y="30" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="szzl8ItCSpbSYo8TicJm-17" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.496;exitY=0.923;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="szzl8ItCSpbSYo8TicJm-11" target="szzl8ItCSpbSYo8TicJm-12">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="558" y="78" as="sourcePoint" />
+        <mxCell id="szzl8ItCSpbSYo8TicJm-17" value="(addToCart第四步&lt;span style=&quot;border-color: var(--border-color); font-size: 12px; text-align: left; background-color: initial;&quot;&gt;)&lt;/span&gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.496;exitY=1.038;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="szzl8ItCSpbSYo8TicJm-33" target="szzl8ItCSpbSYo8TicJm-12">
+          <mxGeometry x="0.0121" width="160" relative="1" as="geometry">
+            <mxPoint x="560" y="180" as="sourcePoint" />
             <mxPoint x="570" y="30" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="szzl8ItCSpbSYo8TicJm-27" value="CommerceCartParameterConverter" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;swimlaneLine=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="-230" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="szzl8ItCSpbSYo8TicJm-28" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="szzl8ItCSpbSYo8TicJm-27">
+          <mxGeometry y="26" width="260" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="szzl8ItCSpbSYo8TicJm-29" value="+&amp;nbsp;convert&lt;span style=&quot;background-color: initial;&quot;&gt;(params):&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;AddToCartParams&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="szzl8ItCSpbSYo8TicJm-27">
+          <mxGeometry y="34" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="szzl8ItCSpbSYo8TicJm-30" value="1" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="szzl8ItCSpbSYo8TicJm-1" target="szzl8ItCSpbSYo8TicJm-27">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="630" y="-10" as="sourcePoint" />
+            <mxPoint x="790" y="-10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="szzl8ItCSpbSYo8TicJm-38" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.007;entryY=0.44;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="szzl8ItCSpbSYo8TicJm-32" target="szzl8ItCSpbSYo8TicJm-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="401" y="114" as="sourcePoint" />
+            <mxPoint x="321" y="114" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="szzl8ItCSpbSYo8TicJm-40" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-16.5" y="80" width="300" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="szzl8ItCSpbSYo8TicJm-37" value="afterAddToCart" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="szzl8ItCSpbSYo8TicJm-40">
+          <mxGeometry width="300" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="szzl8ItCSpbSYo8TicJm-39" value="commerceAddToCartMethodHook.afterAddToCart" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="szzl8ItCSpbSYo8TicJm-40">
+          <mxGeometry x="14.5" y="36" width="283" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
