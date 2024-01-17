@@ -1,4 +1,4 @@
-<mxfile modified="2024-01-17T09:49:10.970Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Lh6AnPdkakV9I92guVn_" version="22.1.16" type="github">
+<mxfile modified="2024-01-17T09:49:58.236Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="47kZC_qKX4C1AKsnf0y_" version="22.1.16" type="github">
   <diagram id="C2fSY1v2SiZeoUbDoYyL" name="Page-1">
     <mxGraphModel dx="1642" dy="1177" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -89,11 +89,16 @@
             <mxPoint x="321" y="114" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="szzl8ItCSpbSYo8TicJm-43" value="afterAddToCart" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="szzl8ItCSpbSYo8TicJm-38">
+          <mxGeometry x="-0.0168" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="szzl8ItCSpbSYo8TicJm-40" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-16.5" y="80" width="300" height="85" as="geometry" />
+          <mxGeometry x="-112" y="79" width="300" height="85" as="geometry" />
         </mxCell>
         <mxCell id="szzl8ItCSpbSYo8TicJm-37" value="afterAddToCart" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="szzl8ItCSpbSYo8TicJm-40">
-          <mxGeometry width="300" height="85" as="geometry" />
+          <mxGeometry x="51" width="300" height="85" as="geometry" />
         </mxCell>
         <mxCell id="szzl8ItCSpbSYo8TicJm-39" value="commerceAddToCartMethodHook.afterAddToCart" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="szzl8ItCSpbSYo8TicJm-40">
           <mxGeometry x="14.5" y="36" width="283" height="26" as="geometry" />
