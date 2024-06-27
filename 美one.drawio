@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-27T07:52:42.165Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="QI7fD54r_8Ir0OGBYvr4" version="24.4.8" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2024-06-27T07:41:18.244Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="elsF2UxqtENdqFgRfjZf" version="24.4.10" type="github" pages="9">
   <diagram name="商品" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">
     <mxGraphModel dx="1242" dy="1891" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="0" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -901,7 +901,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="apyGPRxjoDRJVZl47RXx" name="QC资质审批">
-    <mxGraphModel dx="2069" dy="774" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2069" dy="1943" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -968,26 +968,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ydibEglt0In1S4E0ARg2-13" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;CertDoc&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;资质文件表&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp;&amp;nbsp;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
-          <mxGeometry x="-447" y="530" width="180" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="ydibEglt0In1S4E0ARg2-14" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="ydibEglt0In1S4E0ARg2-13" target="ydibEglt0In1S4E0ARg2-7" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-187" y="180" as="sourcePoint" />
-            <mxPoint x="-257" y="45" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ydibEglt0In1S4E0ARg2-15" value="0..n" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" parent="ydibEglt0In1S4E0ARg2-14" connectable="0" vertex="1">
-          <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="10" y="-30" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ydibEglt0In1S4E0ARg2-16" value="1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" parent="ydibEglt0In1S4E0ARg2-14" connectable="0" vertex="1">
-          <mxGeometry x="1" relative="1" as="geometry">
-            <mxPoint x="20" as="offset" />
-          </mxGeometry>
+          <mxGeometry x="-450" y="724" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ydibEglt0In1S4E0ARg2-17" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;CertDocAttachment&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;资质文件附件表&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp;&amp;nbsp;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
-          <mxGeometry x="-447" y="690" width="180" height="80" as="geometry" />
+          <mxGeometry x="-450" y="887" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ydibEglt0In1S4E0ARg2-18" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="ydibEglt0In1S4E0ARg2-17" target="ydibEglt0In1S4E0ARg2-13" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1006,9 +990,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ydibEglt0In1S4E0ARg2-21" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;CertDocAppr&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;资质文件审核表&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp;&amp;nbsp;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
-          <mxGeometry x="-157" y="530" width="180" height="80" as="geometry" />
+          <mxGeometry x="-447" y="540" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ydibEglt0In1S4E0ARg2-22" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="ydibEglt0In1S4E0ARg2-21" edge="1">
+        <mxCell id="ydibEglt0In1S4E0ARg2-22" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="ydibEglt0In1S4E0ARg2-21" edge="1" target="ydibEglt0In1S4E0ARg2-7">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-347" y="700" as="sourcePoint" />
             <mxPoint x="-267" y="570" as="targetPoint" />
@@ -1025,9 +1009,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ydibEglt0In1S4E0ARg2-25" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;CertDocApprComment&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;资质文件审核记录表&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp;&amp;nbsp;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
-          <mxGeometry x="113" y="530" width="180" height="80" as="geometry" />
+          <mxGeometry x="-151" y="540" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ydibEglt0In1S4E0ARg2-26" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="ydibEglt0In1S4E0ARg2-25" edge="1">
+        <mxCell id="ydibEglt0In1S4E0ARg2-26" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ydibEglt0In1S4E0ARg2-25" edge="1" target="ydibEglt0In1S4E0ARg2-21">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-147" y="580" as="sourcePoint" />
             <mxPoint x="23" y="570" as="targetPoint" />
@@ -1057,6 +1041,12 @@
         </mxCell>
         <mxCell id="pxVAONNM2juBGcfnUNNN-7" value="&lt;font color=&quot;#ff3333&quot;&gt;配置表&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
           <mxGeometry x="238" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jp4ZObCUY_ErTRq6cHJS-1" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ydibEglt0In1S4E0ARg2-21" target="ydibEglt0In1S4E0ARg2-13">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-351" y="642" as="sourcePoint" />
+            <mxPoint x="-191" y="642" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
