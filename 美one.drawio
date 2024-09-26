@@ -1513,6 +1513,9 @@
         <mxCell id="2RwfE7kGcIifmgFUJI0q-22" value="腾讯IOA" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="279" y="864" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="2RwfE7kGcIifmgFUJI0q-23" value="内部和外部服务器通过VPN通信" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="396" y="470" width="149" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
