@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.8" pages="10">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16" pages="10">
   <diagram name="商品" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">
     <mxGraphModel dx="1242" dy="1891" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="0" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -386,22 +386,6 @@
         <mxCell id="NT1We_9h5WOlSeQwqxxz-3" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;AttrAssign&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;商品属性分配&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
           <mxGeometry x="617" y="-1137" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="NT1We_9h5WOlSeQwqxxz-32" value="" style="endArrow=open;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
-          <mxGeometry x="339.3599999999999" y="345.6600000000003" as="geometry">
-            <mxPoint x="1127" y="-732" as="sourcePoint" />
-            <mxPoint x="1227" y="-547" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="NT1We_9h5WOlSeQwqxxz-33" value="0..n" style="resizable=0;align=left;verticalAlign=top;labelBackgroundColor=#ffffff;fontSize=10;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="NT1We_9h5WOlSeQwqxxz-32" connectable="0" vertex="1">
-          <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="10" y="5" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="NT1We_9h5WOlSeQwqxxz-34" value="1" style="resizable=0;align=right;verticalAlign=top;labelBackgroundColor=#ffffff;fontSize=10;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="NT1We_9h5WOlSeQwqxxz-32" connectable="0" vertex="1">
-          <mxGeometry x="1" relative="1" as="geometry">
-            <mxPoint x="-7" y="-29" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="NT1We_9h5WOlSeQwqxxz-36" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;ProductOfferSpu&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;选品Spu&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
           <mxGeometry x="359.75" y="-249.5" width="160" height="80" as="geometry" />
         </mxCell>
@@ -581,23 +565,42 @@
             <mxPoint x="-10" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sc9B1Dpj8M20CNEDqcWs-1" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;OfferGiftEntry&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;赠品明细&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;skuId&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;名称&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;skuCode&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;数量&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;skuName&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;价值&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" vertex="1" parent="1">
+        <mxCell id="sc9B1Dpj8M20CNEDqcWs-1" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;OfferGiftEntry&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;赠品明细&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;skuId&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;名称&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;skuCode&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;数量&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;skuName&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;价值&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
           <mxGeometry x="-35" y="-693" width="160" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="sc9B1Dpj8M20CNEDqcWs-2" value="" style="endArrow=open;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;rounded=1;jumpStyle=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sc9B1Dpj8M20CNEDqcWs-1" target="iJFXVLA7aNA4dNakx_lX-4">
+        <mxCell id="sc9B1Dpj8M20CNEDqcWs-2" value="" style="endArrow=open;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;rounded=1;jumpStyle=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="sc9B1Dpj8M20CNEDqcWs-1" target="iJFXVLA7aNA4dNakx_lX-4" edge="1">
           <mxGeometry x="-510.6400000000001" y="175.6600000000003" as="geometry">
             <mxPoint x="287" y="-837" as="sourcePoint" />
             <mxPoint x="417" y="-897" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sc9B1Dpj8M20CNEDqcWs-3" value="0..n" style="resizable=0;align=left;verticalAlign=top;labelBackgroundColor=#ffffff;fontSize=10;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" connectable="0" vertex="1" parent="sc9B1Dpj8M20CNEDqcWs-2">
+        <mxCell id="sc9B1Dpj8M20CNEDqcWs-3" value="0..n" style="resizable=0;align=left;verticalAlign=top;labelBackgroundColor=#ffffff;fontSize=10;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="sc9B1Dpj8M20CNEDqcWs-2" connectable="0" vertex="1">
           <mxGeometry x="-1" relative="1" as="geometry">
             <mxPoint x="10" y="-30" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sc9B1Dpj8M20CNEDqcWs-4" value="1" style="resizable=0;align=right;verticalAlign=top;labelBackgroundColor=#ffffff;fontSize=10;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" connectable="0" vertex="1" parent="sc9B1Dpj8M20CNEDqcWs-2">
+        <mxCell id="sc9B1Dpj8M20CNEDqcWs-4" value="1" style="resizable=0;align=right;verticalAlign=top;labelBackgroundColor=#ffffff;fontSize=10;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="sc9B1Dpj8M20CNEDqcWs-2" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry">
             <mxPoint x="-26" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k-LRetdhDLehH6QIJ6nb-1" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;ShowPrice&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;直播间到手价&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;productOfferSku&amp;nbsp; OfferSku&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" vertex="1" parent="1">
+          <mxGeometry x="934" y="-819.5" width="217" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="k-LRetdhDLehH6QIJ6nb-3" value="" style="endArrow=open;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;" edge="1" parent="1" source="k-LRetdhDLehH6QIJ6nb-1" target="uM8Gslu0TCIED0904_-n-2">
+          <mxGeometry x="-360.6400000000001" y="115.66000000000031" as="geometry">
+            <mxPoint x="717" y="-827" as="sourcePoint" />
+            <mxPoint x="799" y="-761" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k-LRetdhDLehH6QIJ6nb-4" value="0..n" style="resizable=0;align=left;verticalAlign=top;labelBackgroundColor=#ffffff;fontSize=10;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" connectable="0" vertex="1" parent="k-LRetdhDLehH6QIJ6nb-3">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-30" y="-31" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k-LRetdhDLehH6QIJ6nb-5" value="1" style="resizable=0;align=right;verticalAlign=top;labelBackgroundColor=#ffffff;fontSize=10;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" connectable="0" vertex="1" parent="k-LRetdhDLehH6QIJ6nb-3">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="20" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
