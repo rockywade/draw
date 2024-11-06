@@ -1740,11 +1740,86 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="5SUgHmyb0VA8fN8nVXd6" name="第 14 页">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="5SUgHmyb0VA8fN8nVXd6" name="QC抽审">
+    <mxGraphModel dx="1242" dy="1943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Z3S5Df3S4RC0EJMNsl2Y-1" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;QcAuditQuery&lt;/u&gt;&lt;/b&gt;&lt;span style=&quot;background-color: initial; text-align: left;&quot;&gt;&lt;b&gt;&lt;u&gt;Cond&lt;/u&gt;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;u style=&quot;&quot;&gt;&lt;b&gt;抽审查询条件&lt;/b&gt;&lt;/u&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;field&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 查询字段，同一个field or,不同field and&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;operator&amp;nbsp; &amp;nbsp;查询条件 &amp;gt;、&amp;lt;、=、like、betweenAnd&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;value&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 查询值&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;groupId&amp;nbsp; &amp;nbsp; 查询分组包，不同分组包之间用or查询&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" vertex="1" parent="1">
+          <mxGeometry x="390" y="-190" width="167" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="sewLUdo1392-bDDgaa6Y-4" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;QcAudit&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;QC抽审&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;code&amp;nbsp; &amp;nbsp;编码&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;name 名称&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;status 状态&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;mode&amp;nbsp; 抽样方式&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;modelVal&amp;nbsp; 抽样方式值&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" vertex="1" parent="1">
+          <mxGeometry x="390" y="-440" width="167" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="sewLUdo1392-bDDgaa6Y-5" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;QcAuditDim&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;QC抽审维度&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;code&amp;nbsp; 编码&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;name&amp;nbsp; 名称&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;value&amp;nbsp; 值&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" vertex="1" parent="1">
+          <mxGeometry x="70" y="-420" width="167" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="xq8LXlwLkOldsRJ_CfXt-4" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sewLUdo1392-bDDgaa6Y-5" target="sewLUdo1392-bDDgaa6Y-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="484" y="-200" as="sourcePoint" />
+            <mxPoint x="484" y="-290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xq8LXlwLkOldsRJ_CfXt-5" value="0..n" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" connectable="0" vertex="1" parent="xq8LXlwLkOldsRJ_CfXt-4">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="10" y="-26" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xq8LXlwLkOldsRJ_CfXt-6" value="1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" connectable="0" vertex="1" parent="xq8LXlwLkOldsRJ_CfXt-4">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="-3" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xq8LXlwLkOldsRJ_CfXt-7" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z3S5Df3S4RC0EJMNsl2Y-1" target="sewLUdo1392-bDDgaa6Y-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="247" y="-360" as="sourcePoint" />
+            <mxPoint x="400" y="-360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xq8LXlwLkOldsRJ_CfXt-8" value="0..n" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" connectable="0" vertex="1" parent="xq8LXlwLkOldsRJ_CfXt-7">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="10" y="-26" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xq8LXlwLkOldsRJ_CfXt-9" value="1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" connectable="0" vertex="1" parent="xq8LXlwLkOldsRJ_CfXt-7">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="-3" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xq8LXlwLkOldsRJ_CfXt-10" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;QcAuditTask&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;QC抽审任务&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" vertex="1" parent="1">
+          <mxGeometry x="790" y="-440" width="167" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="XCVwaHDQwnfVp1Jo4HMG-1" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;jumpSize=6;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xq8LXlwLkOldsRJ_CfXt-10" target="sewLUdo1392-bDDgaa6Y-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="313" y="-293" as="sourcePoint" />
+            <mxPoint x="423" y="-400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XCVwaHDQwnfVp1Jo4HMG-2" value="1.按照groupId分组，不同的groupId通过union all拼接sql&lt;br&gt;2.按照field分组，相同的field使用or拼接sql，不同的field使用and拼接sql" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="-200" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="XCVwaHDQwnfVp1Jo4HMG-3" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;QcAuditTaskItem&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;QC抽审任务明细&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" vertex="1" parent="1">
+          <mxGeometry x="790" y="-140" width="167" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="XCVwaHDQwnfVp1Jo4HMG-4" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="XCVwaHDQwnfVp1Jo4HMG-3" target="xq8LXlwLkOldsRJ_CfXt-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="484" y="-180" as="sourcePoint" />
+            <mxPoint x="484" y="-290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XCVwaHDQwnfVp1Jo4HMG-5" value="0..n" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" connectable="0" vertex="1" parent="XCVwaHDQwnfVp1Jo4HMG-4">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="10" y="-26" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XCVwaHDQwnfVp1Jo4HMG-6" value="1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" connectable="0" vertex="1" parent="XCVwaHDQwnfVp1Jo4HMG-4">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="-3" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XCVwaHDQwnfVp1Jo4HMG-7" value="随机抽取&amp;nbsp;random.nextInt(candidates.length);&amp;nbsp;&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="-310" width="290" height="110" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
