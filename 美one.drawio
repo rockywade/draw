@@ -1840,7 +1840,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="XCVwaHDQwnfVp1Jo4HMG-7" value="&lt;div&gt;方案一：&lt;/div&gt;1.随机抽取 random.nextInt(500);&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;方案二：&lt;/div&gt;&lt;div&gt;数据库随机返回&lt;/div&gt;&lt;div&gt;ORDER BY RAND()&amp;nbsp; LIMIT 20&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;抽审任务完成后数据包物理删除，测试阶段可保留&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="717" y="-760" width="290" height="124" as="geometry" />
+          <mxGeometry x="638" y="-779" width="290" height="124" as="geometry" />
         </mxCell>
         <mxCell id="DWFN5ZnnVbgfyMXbVWPJ-1" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="XCVwaHDQwnfVp1Jo4HMG-2" target="Z3S5Df3S4RC0EJMNsl2Y-1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -1865,12 +1865,6 @@
         <mxCell id="IwXl-65P0X0VKrZZyGsw-4" value="1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" parent="IwXl-65P0X0VKrZZyGsw-2" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry">
             <mxPoint x="-3" y="9" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="IwXl-65P0X0VKrZZyGsw-5" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="XCVwaHDQwnfVp1Jo4HMG-7" target="-zzXF_S828U-G1a7Pjyj-1" edge="1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="703" y="-684" as="sourcePoint" />
-            <mxPoint x="603" y="-673.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-zzXF_S828U-G1a7Pjyj-1" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;AuditRuleDataPacket&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;抽审规则数据包&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;bizType 业务类型&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;bizid&amp;nbsp; 业务ID&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;bizCode 业务编码&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;aggId&amp;nbsp; 聚合单ID&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;aggCode&amp;nbsp; 聚合单号&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;rulGroupId 规则组&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;data&amp;nbsp; 其它数据&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;index&amp;nbsp; 索引&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;selected&amp;nbsp; 选中&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
