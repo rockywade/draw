@@ -1839,7 +1839,7 @@
             <mxPoint x="-3" y="9" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XCVwaHDQwnfVp1Jo4HMG-7" value="&lt;div&gt;方案一：&lt;/div&gt;1.随机抽取 random.nextInt(500);&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;方案二：&lt;/div&gt;&lt;div&gt;数据库随机返回&lt;/div&gt;&lt;div&gt;ORDER BY RAND()&amp;nbsp; LIMIT 20&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;抽审任务完成后数据包物理删除，测试阶段可保留&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;dashed=1;" parent="1" vertex="1">
+        <mxCell id="XCVwaHDQwnfVp1Jo4HMG-7" value="&lt;div&gt;方案一：&lt;/div&gt;1.随机抽取 random.nextInt(500);&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;方案二：&lt;/div&gt;&lt;div&gt;数据库随机返回&lt;/div&gt;&lt;div&gt;mysql: ORDER BY RAND()&amp;nbsp; LIMIT 20&lt;/div&gt;&lt;div&gt;holo: ORDER BY random()&amp;nbsp; LIMIT 20&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;抽审任务完成后数据包物理删除，测试阶段可保留&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="638" y="-779" width="290" height="124" as="geometry" />
         </mxCell>
         <mxCell id="DWFN5ZnnVbgfyMXbVWPJ-1" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="XCVwaHDQwnfVp1Jo4HMG-2" target="Z3S5Df3S4RC0EJMNsl2Y-1" edge="1">
