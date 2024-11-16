@@ -1334,6 +1334,15 @@
             <mxPoint x="13" y="9" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="0UYneViMe1-HoToLsQ5a-1" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;PlateProductSpuPool&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;平台商品池&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" vertex="1" parent="1">
+          <mxGeometry x="50" y="-892" width="182" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="0UYneViMe1-HoToLsQ5a-2" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;PlateProductSpuMatch&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;平台商品映射分数&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" vertex="1" parent="1">
+          <mxGeometry x="57" y="-661" width="182" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="0UYneViMe1-HoToLsQ5a-3" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;PlateProductSpuMatch&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;平台商品映射分数&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" vertex="1" parent="1">
+          <mxGeometry x="309" y="-894" width="182" height="101" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -1720,7 +1729,7 @@
         <mxCell id="5U-gIU8Xtd0Bql-qvgt8-3" value="虚拟寄样-转借用单" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="120" width="670" height="1100" as="geometry" />
         </mxCell>
-        <mxCell id="5U-gIU8Xtd0Bql-qvgt8-4" value="样品" style="swimlane;startSize=20;html=1;" parent="5U-gIU8Xtd0Bql-qvgt8-3" vertex="1">
+        <mxCell id="5U-gIU8Xtd0Bql-qvgt8-4" value="样品" style="swimlane;startSize=20;html=1;align=left;" parent="5U-gIU8Xtd0Bql-qvgt8-3" vertex="1">
           <mxGeometry y="20" width="670" height="1080" as="geometry" />
         </mxCell>
         <mxCell id="5U-gIU8Xtd0Bql-qvgt8-10" value="创建寄样单" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" parent="5U-gIU8Xtd0Bql-qvgt8-4" vertex="1">
@@ -1738,7 +1747,7 @@
         <mxCell id="5U-gIU8Xtd0Bql-qvgt8-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="5U-gIU8Xtd0Bql-qvgt8-4" source="5U-gIU8Xtd0Bql-qvgt8-24" target="EpwOhGGZfg0dm4VgnX16-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EpwOhGGZfg0dm4VgnX16-1" value="发送入库确认" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5U-gIU8Xtd0Bql-qvgt8-29">
+        <mxCell id="EpwOhGGZfg0dm4VgnX16-1" value="发送入库确认" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="5U-gIU8Xtd0Bql-qvgt8-29" vertex="1" connectable="0">
           <mxGeometry x="-0.037" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -1773,7 +1782,7 @@
         <mxCell id="5U-gIU8Xtd0Bql-qvgt8-34" value="出库单" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="5U-gIU8Xtd0Bql-qvgt8-5" vertex="1">
           <mxGeometry x="107.5" y="530" width="110" height="46.56" as="geometry" />
         </mxCell>
-        <mxCell id="EpwOhGGZfg0dm4VgnX16-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="5U-gIU8Xtd0Bql-qvgt8-5" source="5U-gIU8Xtd0Bql-qvgt8-40" target="EpwOhGGZfg0dm4VgnX16-8">
+        <mxCell id="EpwOhGGZfg0dm4VgnX16-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="5U-gIU8Xtd0Bql-qvgt8-5" source="5U-gIU8Xtd0Bql-qvgt8-40" target="EpwOhGGZfg0dm4VgnX16-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5U-gIU8Xtd0Bql-qvgt8-40" value="虚拟入库单" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="5U-gIU8Xtd0Bql-qvgt8-5" vertex="1">
@@ -1785,13 +1794,13 @@
         <mxCell id="5U-gIU8Xtd0Bql-qvgt8-37" value="WMS出库确认" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="5U-gIU8Xtd0Bql-qvgt8-5" vertex="1">
           <mxGeometry x="107.5" y="620" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EpwOhGGZfg0dm4VgnX16-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="5U-gIU8Xtd0Bql-qvgt8-5" source="5U-gIU8Xtd0Bql-qvgt8-34" target="5U-gIU8Xtd0Bql-qvgt8-37">
+        <mxCell id="EpwOhGGZfg0dm4VgnX16-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="5U-gIU8Xtd0Bql-qvgt8-5" source="5U-gIU8Xtd0Bql-qvgt8-34" target="5U-gIU8Xtd0Bql-qvgt8-37" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-138" y="724" as="sourcePoint" />
             <mxPoint x="110" y="724" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EpwOhGGZfg0dm4VgnX16-8" value="入库确认" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="5U-gIU8Xtd0Bql-qvgt8-5">
+        <mxCell id="EpwOhGGZfg0dm4VgnX16-8" value="入库确认" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="5U-gIU8Xtd0Bql-qvgt8-5" vertex="1">
           <mxGeometry x="101.25" y="820" width="125" height="40" as="geometry" />
         </mxCell>
         <mxCell id="5U-gIU8Xtd0Bql-qvgt8-15" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="5U-gIU8Xtd0Bql-qvgt8-4" source="5U-gIU8Xtd0Bql-qvgt8-12" target="5U-gIU8Xtd0Bql-qvgt8-14" edge="1">
@@ -1808,7 +1817,7 @@
         <mxCell id="5U-gIU8Xtd0Bql-qvgt8-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="5U-gIU8Xtd0Bql-qvgt8-4" source="5U-gIU8Xtd0Bql-qvgt8-32" target="5U-gIU8Xtd0Bql-qvgt8-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EpwOhGGZfg0dm4VgnX16-18" value="请求创建虚拟出库单" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5U-gIU8Xtd0Bql-qvgt8-35">
+        <mxCell id="EpwOhGGZfg0dm4VgnX16-18" value="请求创建虚拟出库单" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="5U-gIU8Xtd0Bql-qvgt8-35" vertex="1" connectable="0">
           <mxGeometry x="-0.1312" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
@@ -1816,47 +1825,47 @@
         <mxCell id="5U-gIU8Xtd0Bql-qvgt8-44" value="结束" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" parent="5U-gIU8Xtd0Bql-qvgt8-4" vertex="1">
           <mxGeometry x="140" y="910" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="EpwOhGGZfg0dm4VgnX16-4" value="收到出库确认" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="5U-gIU8Xtd0Bql-qvgt8-4">
+        <mxCell id="EpwOhGGZfg0dm4VgnX16-4" value="收到出库确认" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="5U-gIU8Xtd0Bql-qvgt8-4" vertex="1">
           <mxGeometry x="120" y="620" width="116" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EpwOhGGZfg0dm4VgnX16-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="5U-gIU8Xtd0Bql-qvgt8-4" source="5U-gIU8Xtd0Bql-qvgt8-37" target="EpwOhGGZfg0dm4VgnX16-4">
+        <mxCell id="EpwOhGGZfg0dm4VgnX16-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="5U-gIU8Xtd0Bql-qvgt8-4" source="5U-gIU8Xtd0Bql-qvgt8-37" target="EpwOhGGZfg0dm4VgnX16-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EpwOhGGZfg0dm4VgnX16-6" value="发送出库确认" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EpwOhGGZfg0dm4VgnX16-5">
+        <mxCell id="EpwOhGGZfg0dm4VgnX16-6" value="发送出库确认" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="EpwOhGGZfg0dm4VgnX16-5" vertex="1" connectable="0">
           <mxGeometry x="0.0165" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EpwOhGGZfg0dm4VgnX16-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="5U-gIU8Xtd0Bql-qvgt8-4" source="EpwOhGGZfg0dm4VgnX16-4" target="5U-gIU8Xtd0Bql-qvgt8-40">
+        <mxCell id="EpwOhGGZfg0dm4VgnX16-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="5U-gIU8Xtd0Bql-qvgt8-4" source="EpwOhGGZfg0dm4VgnX16-4" target="5U-gIU8Xtd0Bql-qvgt8-40" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="238" y="524" as="sourcePoint" />
             <mxPoint x="480" y="524" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EpwOhGGZfg0dm4VgnX16-10" value="请求创建虚拟入库单" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EpwOhGGZfg0dm4VgnX16-7">
+        <mxCell id="EpwOhGGZfg0dm4VgnX16-10" value="请求创建虚拟入库单" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="EpwOhGGZfg0dm4VgnX16-7" vertex="1" connectable="0">
           <mxGeometry x="0.0958" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EpwOhGGZfg0dm4VgnX16-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="5U-gIU8Xtd0Bql-qvgt8-4" source="EpwOhGGZfg0dm4VgnX16-8" target="EpwOhGGZfg0dm4VgnX16-16">
+        <mxCell id="EpwOhGGZfg0dm4VgnX16-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="5U-gIU8Xtd0Bql-qvgt8-4" source="EpwOhGGZfg0dm4VgnX16-8" target="EpwOhGGZfg0dm4VgnX16-16" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="238" y="524" as="sourcePoint" />
             <mxPoint x="480" y="524" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EpwOhGGZfg0dm4VgnX16-13" value="收到入库确认" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="5U-gIU8Xtd0Bql-qvgt8-4">
+        <mxCell id="EpwOhGGZfg0dm4VgnX16-13" value="收到入库确认" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="5U-gIU8Xtd0Bql-qvgt8-4" vertex="1">
           <mxGeometry x="120" y="260" width="116" height="42.5" as="geometry" />
         </mxCell>
-        <mxCell id="EpwOhGGZfg0dm4VgnX16-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="5U-gIU8Xtd0Bql-qvgt8-4" source="EpwOhGGZfg0dm4VgnX16-13" target="5U-gIU8Xtd0Bql-qvgt8-28">
+        <mxCell id="EpwOhGGZfg0dm4VgnX16-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="5U-gIU8Xtd0Bql-qvgt8-4" source="EpwOhGGZfg0dm4VgnX16-13" target="5U-gIU8Xtd0Bql-qvgt8-28" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="180" y="393" as="sourcePoint" />
             <mxPoint x="180" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EpwOhGGZfg0dm4VgnX16-16" value="收到出库确认" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="5U-gIU8Xtd0Bql-qvgt8-4">
+        <mxCell id="EpwOhGGZfg0dm4VgnX16-16" value="收到出库确认" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="5U-gIU8Xtd0Bql-qvgt8-4" vertex="1">
           <mxGeometry x="120" y="820" width="116" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EpwOhGGZfg0dm4VgnX16-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="5U-gIU8Xtd0Bql-qvgt8-44">
+        <mxCell id="EpwOhGGZfg0dm4VgnX16-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="5U-gIU8Xtd0Bql-qvgt8-44" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="380" y="1000" as="sourcePoint" />
             <mxPoint x="446" y="990" as="targetPoint" />
@@ -1870,11 +1879,11 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Z3S5Df3S4RC0EJMNsl2Y-1" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;AuditRule&lt;/u&gt;&lt;/b&gt;&lt;span style=&quot;background-color: initial; text-align: left;&quot;&gt;&lt;b&gt;&lt;u&gt;Cond&lt;/u&gt;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;u style=&quot;&quot;&gt;&lt;b&gt;抽审规则条件&lt;/b&gt;&lt;/u&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;field&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 查询字段&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;operator&amp;nbsp; &amp;nbsp;查询条件 &amp;gt;、&amp;lt;、=、like、in、betweenAnd&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;value&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 查询值&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;condGroupId&amp;nbsp; &amp;nbsp; 规则条件组&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
-          <mxGeometry x="358.87" y="-136" width="272.25" height="125" as="geometry" />
+        <mxCell id="Z3S5Df3S4RC0EJMNsl2Y-1" value="&lt;p style=&quot;text-align: left; margin: 4px 0px 0px;&quot;&gt;&lt;b&gt;&lt;u&gt;AuditRuleItem&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;u style=&quot;&quot;&gt;&lt;b&gt;抽审规则条件&lt;/b&gt;&lt;/u&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
+          <mxGeometry x="358.87" y="-136" width="272.25" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="sewLUdo1392-bDDgaa6Y-4" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;AuditRule&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;抽审规则&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;code&amp;nbsp; &amp;nbsp;编码&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;name 名称&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;type&amp;nbsp; &amp;nbsp; 类型&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;status 状态&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;triggerType&amp;nbsp; 触发类型（手动、自动)&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;triggerCycle 触发周期(周、月）&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;triggerCycleVal 触发周期值&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;dim 维度&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;dimVal 维度值&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;sampleMode&amp;nbsp; 抽样方式&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;sampleModeVal&amp;nbsp; 抽样方式值&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;sampleModeValL&lt;span style=&quot;background-color: initial;&quot;&gt;imit&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; 抽样方式值上限&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
-          <mxGeometry x="379.99" y="-480" width="230" height="235.75" as="geometry" />
+        <mxCell id="sewLUdo1392-bDDgaa6Y-4" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;AuditRule&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;抽审规则&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
+          <mxGeometry x="379.99" y="-480" width="230" height="114" as="geometry" />
         </mxCell>
         <mxCell id="xq8LXlwLkOldsRJ_CfXt-7" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="Z3S5Df3S4RC0EJMNsl2Y-1" target="sewLUdo1392-bDDgaa6Y-4" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1892,8 +1901,8 @@
             <mxPoint x="-3" y="9" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xq8LXlwLkOldsRJ_CfXt-10" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;AuditTask&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;抽审任务&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;code 编码&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;name 名称&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;type 类型&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;totalQty 任务总数量&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;uncompletedQty 未完成数量&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;status&amp;nbsp; 状态&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;createdDate 生成时间&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;completedDate&amp;nbsp; 完成时间&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
-          <mxGeometry x="790" y="-455" width="190" height="170" as="geometry" />
+        <mxCell id="xq8LXlwLkOldsRJ_CfXt-10" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;AuditTask&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;抽审任务&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
+          <mxGeometry x="790" y="-455" width="190" height="83" as="geometry" />
         </mxCell>
         <mxCell id="XCVwaHDQwnfVp1Jo4HMG-1" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;jumpSize=6;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="xq8LXlwLkOldsRJ_CfXt-10" target="sewLUdo1392-bDDgaa6Y-4" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -1904,8 +1913,8 @@
         <mxCell id="XCVwaHDQwnfVp1Jo4HMG-2" value="按照condGroupId分组，不同的groupId通过union all拼接sql&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;strokeColor=default;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="10" y="-130" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="XCVwaHDQwnfVp1Jo4HMG-3" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;AuditTaskItem&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;抽审任务明细&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;code&amp;nbsp; 编码&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;aggId&amp;nbsp; 聚合单ID&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;aggCode&amp;nbsp; 聚合单号&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;dim 抽审维度&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;dimVal 抽审维度值&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;bizType 业务类型&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;bizId&amp;nbsp; 业务ID&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;bizCode 业务编码&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;status&amp;nbsp; 状态&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;hangFlag 挂起标识&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;createdDate&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;生成时间&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;apprStatus&amp;nbsp; 审核结果&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;apprRemark&amp;nbsp; 审核备注&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;auditor&amp;nbsp; 审核人&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;appr&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Date&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;审核时间&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;dataPerm1&amp;nbsp; 数据&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;权限&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1(offer:userId)&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;dataPerm&lt;/span&gt;2&amp;nbsp; 数据&lt;span style=&quot;background-color: initial;&quot;&gt;权限&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2(offer:categoryId)&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
-          <mxGeometry x="775" y="-140" width="220" height="309" as="geometry" />
+        <mxCell id="XCVwaHDQwnfVp1Jo4HMG-3" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;AuditTaskItem&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;抽审任务明细&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
+          <mxGeometry x="775" y="-140" width="220" height="76" as="geometry" />
         </mxCell>
         <mxCell id="XCVwaHDQwnfVp1Jo4HMG-4" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="XCVwaHDQwnfVp1Jo4HMG-3" target="xq8LXlwLkOldsRJ_CfXt-10" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1930,25 +1939,6 @@
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="200" y="-70" as="sourcePoint" />
             <mxPoint x="280" y="-70" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="IwXl-65P0X0VKrZZyGsw-1" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;AuditTaskApprItem&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;抽审任务审核明细&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;type 类型&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;name 名称&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;value 值&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
-          <mxGeometry x="775" y="235" width="220" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="IwXl-65P0X0VKrZZyGsw-2" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="IwXl-65P0X0VKrZZyGsw-1" target="XCVwaHDQwnfVp1Jo4HMG-3" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="884" y="-130" as="sourcePoint" />
-            <mxPoint x="893" y="148" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="IwXl-65P0X0VKrZZyGsw-3" value="0..n" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" parent="IwXl-65P0X0VKrZZyGsw-2" connectable="0" vertex="1">
-          <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="10" y="-26" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="IwXl-65P0X0VKrZZyGsw-4" value="1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" parent="IwXl-65P0X0VKrZZyGsw-2" connectable="0" vertex="1">
-          <mxGeometry x="1" relative="1" as="geometry">
-            <mxPoint x="-3" y="9" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-zzXF_S828U-G1a7Pjyj-1" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;AuditRuleDataPacket&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;抽审规则数据包&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;bizType 业务类型&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;bizid&amp;nbsp; 业务ID&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;bizCode 业务编码&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;aggId&amp;nbsp; 聚合单ID&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;aggCode&amp;nbsp; 聚合单号&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;rulGroupId 规则组&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;data&amp;nbsp; 其它数据&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;index&amp;nbsp; 索引&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;selected&amp;nbsp; 选中&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
