@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.6" pages="23">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.0" pages="23">
   <diagram name="商品" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">
     <mxGraphModel dx="1242" dy="1974" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="0" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -914,151 +914,173 @@
     </mxGraphModel>
   </diagram>
   <diagram id="apyGPRxjoDRJVZl47RXx" name="QC资质审批">
-    <mxGraphModel dx="2069" dy="1943" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2061" dy="1863" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="PbW5qiwsdzICnOcbVt3K-1" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;QcCertAppr&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;QC资质审核表&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp; offerSpuId&amp;nbsp; offerId&lt;br&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
-          <mxGeometry x="-427" width="160" height="70" as="geometry" />
+        <mxCell id="PbW5qiwsdzICnOcbVt3K-1" parent="1" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;QcCertAppr&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;QC资质审核表&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp; offerSpuId&amp;nbsp; offerId&lt;br&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="70" width="160" x="-427" as="geometry" />
         </mxCell>
-        <mxCell id="PbW5qiwsdzICnOcbVt3K-2" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;ProductSkuCertInfo&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;产品资质信息表&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp; skuId&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;skuId&lt;br&gt;&amp;nbsp;&amp;nbsp;offerId&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;offerId&lt;br&gt;&amp;nbsp; offerSkuId&amp;nbsp; &amp;nbsp; &amp;nbsp;offerSkuId&lt;br&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;giftId&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;赠品ID&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
-          <mxGeometry x="-577" y="140" width="160" height="110" as="geometry" />
+        <mxCell id="PbW5qiwsdzICnOcbVt3K-2" parent="1" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;ProductSkuCertInfo&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;产品资质信息表&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp; skuId&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;skuId&lt;br&gt;&amp;nbsp;&amp;nbsp;offerId&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;offerId&lt;br&gt;&amp;nbsp; offerSkuId&amp;nbsp; &amp;nbsp; &amp;nbsp;offerSkuId&lt;br&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;giftId&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;赠品ID&lt;br&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="110" width="160" x="-577" y="140" as="geometry" />
         </mxCell>
-        <mxCell id="PbW5qiwsdzICnOcbVt3K-3" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;CompanyCertInfo&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;商家资质信息表&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp; brandId&amp;nbsp; 品牌ID&lt;br&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
-          <mxGeometry x="-277" y="170" width="160" height="70" as="geometry" />
+        <mxCell id="PbW5qiwsdzICnOcbVt3K-3" parent="1" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;CompanyCertInfo&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;商家资质信息表&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp; brandId&amp;nbsp; 品牌ID&lt;br&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="70" width="160" x="-277" y="170" as="geometry" />
         </mxCell>
-        <mxCell id="ydibEglt0In1S4E0ARg2-1" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="PbW5qiwsdzICnOcbVt3K-2" target="PbW5qiwsdzICnOcbVt3K-1" edge="1">
+        <mxCell id="ydibEglt0In1S4E0ARg2-1" edge="1" parent="1" source="PbW5qiwsdzICnOcbVt3K-2" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="PbW5qiwsdzICnOcbVt3K-1" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-567" y="100" as="sourcePoint" />
             <mxPoint x="-407" y="100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ydibEglt0In1S4E0ARg2-2" value="0..n" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" parent="ydibEglt0In1S4E0ARg2-1" connectable="0" vertex="1">
-          <mxGeometry x="-1" relative="1" as="geometry">
+        <mxCell id="ydibEglt0In1S4E0ARg2-2" connectable="0" parent="ydibEglt0In1S4E0ARg2-1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" value="0..n" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry">
             <mxPoint y="-40" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ydibEglt0In1S4E0ARg2-3" value="1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" parent="ydibEglt0In1S4E0ARg2-1" connectable="0" vertex="1">
-          <mxGeometry x="1" relative="1" as="geometry">
+        <mxCell id="ydibEglt0In1S4E0ARg2-3" connectable="0" parent="ydibEglt0In1S4E0ARg2-1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" value="1" vertex="1">
+          <mxGeometry relative="1" x="1" as="geometry">
             <mxPoint x="-10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ydibEglt0In1S4E0ARg2-4" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="PbW5qiwsdzICnOcbVt3K-3" target="PbW5qiwsdzICnOcbVt3K-1" edge="1">
+        <mxCell id="ydibEglt0In1S4E0ARg2-4" edge="1" parent="1" source="PbW5qiwsdzICnOcbVt3K-3" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="PbW5qiwsdzICnOcbVt3K-1" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-137" y="60" as="sourcePoint" />
             <mxPoint x="23" y="60" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ydibEglt0In1S4E0ARg2-5" value="0..n" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" parent="ydibEglt0In1S4E0ARg2-4" connectable="0" vertex="1">
-          <mxGeometry x="-1" relative="1" as="geometry">
+        <mxCell id="ydibEglt0In1S4E0ARg2-5" connectable="0" parent="ydibEglt0In1S4E0ARg2-4" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" value="0..n" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry">
             <mxPoint x="10" y="-30" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ydibEglt0In1S4E0ARg2-6" value="1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" parent="ydibEglt0In1S4E0ARg2-4" connectable="0" vertex="1">
-          <mxGeometry x="1" relative="1" as="geometry">
+        <mxCell id="ydibEglt0In1S4E0ARg2-6" connectable="0" parent="ydibEglt0In1S4E0ARg2-4" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" value="1" vertex="1">
+          <mxGeometry relative="1" x="1" as="geometry">
             <mxPoint x="20" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ydibEglt0In1S4E0ARg2-7" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;CertDocType&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;资质文件类型&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp; companyCertInfo&amp;nbsp; &amp;nbsp; &amp;nbsp;商家资质&lt;br&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;productSkuCertInfo 产品资质&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
-          <mxGeometry x="-447" y="350" width="180" height="100" as="geometry" />
+        <mxCell id="ydibEglt0In1S4E0ARg2-7" parent="1" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;CertDocType&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;资质文件类型&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp; companyCertInfo&amp;nbsp; &amp;nbsp; &amp;nbsp;商家资质&lt;br&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;productSkuCertInfo 产品资质&lt;br&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="100" width="180" x="-447" y="350" as="geometry" />
         </mxCell>
-        <mxCell id="ydibEglt0In1S4E0ARg2-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ydibEglt0In1S4E0ARg2-8" target="ydibEglt0In1S4E0ARg2-7" edge="1">
+        <mxCell id="ydibEglt0In1S4E0ARg2-9" edge="1" parent="1" source="ydibEglt0In1S4E0ARg2-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ydibEglt0In1S4E0ARg2-7" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ydibEglt0In1S4E0ARg2-8" value="资质文件类型和商家资质是多对一关系&lt;br&gt;资质文件类型和产品资质是多对一关系" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-827" y="380" width="230" height="40" as="geometry" />
+        <mxCell id="ydibEglt0In1S4E0ARg2-8" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="资质文件类型和商家资质是多对一关系&lt;br&gt;资质文件类型和产品资质是多对一关系" vertex="1">
+          <mxGeometry height="40" width="230" x="-827" y="380" as="geometry" />
         </mxCell>
-        <mxCell id="ydibEglt0In1S4E0ARg2-11" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" parent="1" source="ydibEglt0In1S4E0ARg2-7" target="PbW5qiwsdzICnOcbVt3K-3" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
+        <mxCell id="ydibEglt0In1S4E0ARg2-11" edge="1" parent="1" source="ydibEglt0In1S4E0ARg2-7" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" target="PbW5qiwsdzICnOcbVt3K-3" value="Use">
+          <mxGeometry relative="1" width="160" as="geometry">
             <mxPoint x="-317" y="250" as="sourcePoint" />
             <mxPoint x="-157" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ydibEglt0In1S4E0ARg2-12" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" parent="1" source="ydibEglt0In1S4E0ARg2-7" target="PbW5qiwsdzICnOcbVt3K-2" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
+        <mxCell id="ydibEglt0In1S4E0ARg2-12" edge="1" parent="1" source="ydibEglt0In1S4E0ARg2-7" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" target="PbW5qiwsdzICnOcbVt3K-2" value="Use">
+          <mxGeometry relative="1" width="160" as="geometry">
             <mxPoint x="-597" y="290" as="sourcePoint" />
             <mxPoint x="-437" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ydibEglt0In1S4E0ARg2-13" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;CertDoc&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;资质文件表&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp;&amp;nbsp;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
-          <mxGeometry x="-450" y="724" width="180" height="80" as="geometry" />
+        <mxCell id="ydibEglt0In1S4E0ARg2-13" parent="1" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;CertDoc&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;资质文件表&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp;&amp;nbsp;" vertex="1">
+          <mxGeometry height="80" width="180" x="-450" y="724" as="geometry" />
         </mxCell>
-        <mxCell id="ydibEglt0In1S4E0ARg2-17" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;CertDocAttachment&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;资质文件附件表&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp;&amp;nbsp;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
-          <mxGeometry x="-450" y="887" width="180" height="80" as="geometry" />
+        <mxCell id="ydibEglt0In1S4E0ARg2-17" parent="1" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;CertDocAttachment&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;资质文件附件表&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp;&amp;nbsp;" vertex="1">
+          <mxGeometry height="80" width="180" x="-450" y="887" as="geometry" />
         </mxCell>
-        <mxCell id="ydibEglt0In1S4E0ARg2-18" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="ydibEglt0In1S4E0ARg2-17" target="ydibEglt0In1S4E0ARg2-13" edge="1">
+        <mxCell id="ydibEglt0In1S4E0ARg2-18" edge="1" parent="1" source="ydibEglt0In1S4E0ARg2-17" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="ydibEglt0In1S4E0ARg2-13" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-347" y="540" as="sourcePoint" />
             <mxPoint x="-347" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ydibEglt0In1S4E0ARg2-19" value="0..n" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" parent="ydibEglt0In1S4E0ARg2-18" connectable="0" vertex="1">
-          <mxGeometry x="-1" relative="1" as="geometry">
+        <mxCell id="ydibEglt0In1S4E0ARg2-19" connectable="0" parent="ydibEglt0In1S4E0ARg2-18" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" value="0..n" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry">
             <mxPoint x="10" y="-30" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ydibEglt0In1S4E0ARg2-20" value="1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" parent="ydibEglt0In1S4E0ARg2-18" connectable="0" vertex="1">
-          <mxGeometry x="1" relative="1" as="geometry">
+        <mxCell id="ydibEglt0In1S4E0ARg2-20" connectable="0" parent="ydibEglt0In1S4E0ARg2-18" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" value="1" vertex="1">
+          <mxGeometry relative="1" x="1" as="geometry">
             <mxPoint x="20" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ydibEglt0In1S4E0ARg2-21" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;CertDocAppr&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;资质文件审核表&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp;&amp;nbsp;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
-          <mxGeometry x="-447" y="540" width="180" height="80" as="geometry" />
+        <mxCell id="ydibEglt0In1S4E0ARg2-21" parent="1" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;CertDocAppr&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;资质文件审核表&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp;&amp;nbsp;" vertex="1">
+          <mxGeometry height="80" width="180" x="-447" y="540" as="geometry" />
         </mxCell>
-        <mxCell id="ydibEglt0In1S4E0ARg2-22" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="ydibEglt0In1S4E0ARg2-21" target="ydibEglt0In1S4E0ARg2-7" edge="1">
+        <mxCell id="ydibEglt0In1S4E0ARg2-22" edge="1" parent="1" source="ydibEglt0In1S4E0ARg2-21" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="ydibEglt0In1S4E0ARg2-7" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-347" y="700" as="sourcePoint" />
             <mxPoint x="-267" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ydibEglt0In1S4E0ARg2-23" value="0..n" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" parent="ydibEglt0In1S4E0ARg2-22" connectable="0" vertex="1">
-          <mxGeometry x="-1" relative="1" as="geometry">
+        <mxCell id="ydibEglt0In1S4E0ARg2-23" connectable="0" parent="ydibEglt0In1S4E0ARg2-22" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" value="0..n" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry">
             <mxPoint x="-30" y="-30" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ydibEglt0In1S4E0ARg2-24" value="1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" parent="ydibEglt0In1S4E0ARg2-22" connectable="0" vertex="1">
-          <mxGeometry x="1" relative="1" as="geometry">
+        <mxCell id="ydibEglt0In1S4E0ARg2-24" connectable="0" parent="ydibEglt0In1S4E0ARg2-22" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" value="1" vertex="1">
+          <mxGeometry relative="1" x="1" as="geometry">
             <mxPoint x="20" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ydibEglt0In1S4E0ARg2-25" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;CertDocApprComment&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;资质文件审核记录表&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp;&amp;nbsp;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
-          <mxGeometry x="-151" y="540" width="180" height="80" as="geometry" />
+        <mxCell id="ydibEglt0In1S4E0ARg2-25" parent="1" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;CertDocApprComment&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;资质文件审核记录表&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp;&amp;nbsp;" vertex="1">
+          <mxGeometry height="80" width="180" x="-151" y="540" as="geometry" />
         </mxCell>
-        <mxCell id="ydibEglt0In1S4E0ARg2-26" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ydibEglt0In1S4E0ARg2-25" target="ydibEglt0In1S4E0ARg2-21" edge="1">
+        <mxCell id="ydibEglt0In1S4E0ARg2-26" edge="1" parent="1" source="ydibEglt0In1S4E0ARg2-25" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="ydibEglt0In1S4E0ARg2-21" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-147" y="580" as="sourcePoint" />
             <mxPoint x="23" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ydibEglt0In1S4E0ARg2-27" value="0..n" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" parent="ydibEglt0In1S4E0ARg2-26" connectable="0" vertex="1">
-          <mxGeometry x="-1" relative="1" as="geometry">
+        <mxCell id="ydibEglt0In1S4E0ARg2-27" connectable="0" parent="ydibEglt0In1S4E0ARg2-26" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" value="0..n" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry">
             <mxPoint x="-30" y="-30" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ydibEglt0In1S4E0ARg2-28" value="1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" parent="ydibEglt0In1S4E0ARg2-26" connectable="0" vertex="1">
-          <mxGeometry x="1" relative="1" as="geometry">
+        <mxCell id="ydibEglt0In1S4E0ARg2-28" connectable="0" parent="ydibEglt0In1S4E0ARg2-26" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" value="1" vertex="1">
+          <mxGeometry relative="1" x="1" as="geometry">
             <mxPoint x="20" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ydibEglt0In1S4E0ARg2-30" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;CertCompanyDocType&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;商家和资质文件类型关联配置表&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp; certDocType&amp;nbsp;&amp;nbsp;资质文件类型" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
-          <mxGeometry x="183" y="310" width="180" height="70" as="geometry" />
+        <mxCell id="ydibEglt0In1S4E0ARg2-30" parent="1" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;CertCompanyDocType&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;商家和资质文件类型关联配置表&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp; certDocType&amp;nbsp;&amp;nbsp;资质文件类型" vertex="1">
+          <mxGeometry height="70" width="180" x="183" y="310" as="geometry" />
         </mxCell>
-        <mxCell id="ydibEglt0In1S4E0ARg2-31" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;CertSkuDocType&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;Sku和offer资质文件类型关联配置表&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp; certDocType&amp;nbsp;&amp;nbsp;资质文件类型" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
-          <mxGeometry x="173" y="180" width="200" height="70" as="geometry" />
+        <mxCell id="ydibEglt0In1S4E0ARg2-31" parent="1" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;CertSkuDocType&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;Sku和offer资质文件类型关联配置表&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp; certDocType&amp;nbsp;&amp;nbsp;资质文件类型" vertex="1">
+          <mxGeometry height="70" width="200" x="173" y="180" as="geometry" />
         </mxCell>
-        <mxCell id="ydibEglt0In1S4E0ARg2-32" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;CertApprGroupConfig&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;审批配置表&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp;&amp;nbsp;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
-          <mxGeometry x="198" y="70" width="150" height="70" as="geometry" />
+        <mxCell id="ydibEglt0In1S4E0ARg2-32" parent="1" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;CertApprGroupConfig&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;审批配置表&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp;&amp;nbsp;" vertex="1">
+          <mxGeometry height="70" width="150" x="198" y="70" as="geometry" />
         </mxCell>
-        <mxCell id="pxVAONNM2juBGcfnUNNN-6" value="" style="rounded=0;whiteSpace=wrap;html=1;imageAspect=1;fillColor=none;dashed=1;dashPattern=8 8;glass=0;shadow=0;" parent="1" vertex="1">
-          <mxGeometry x="113" y="40" width="350" height="380" as="geometry" />
+        <mxCell id="pxVAONNM2juBGcfnUNNN-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;imageAspect=1;fillColor=none;dashed=1;dashPattern=8 8;glass=0;shadow=0;" value="" vertex="1">
+          <mxGeometry height="380" width="350" x="113" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="pxVAONNM2juBGcfnUNNN-7" value="&lt;font color=&quot;#ff3333&quot;&gt;配置表&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
-          <mxGeometry x="238" width="100" height="40" as="geometry" />
+        <mxCell id="pxVAONNM2juBGcfnUNNN-7" parent="1" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" value="&lt;font color=&quot;#ff3333&quot;&gt;配置表&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="100" x="238" as="geometry" />
         </mxCell>
-        <mxCell id="jp4ZObCUY_ErTRq6cHJS-1" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="ydibEglt0In1S4E0ARg2-21" target="ydibEglt0In1S4E0ARg2-13" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
+        <mxCell id="jp4ZObCUY_ErTRq6cHJS-1" edge="1" parent="1" source="ydibEglt0In1S4E0ARg2-21" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="ydibEglt0In1S4E0ARg2-13" value="Use">
+          <mxGeometry relative="1" width="160" as="geometry">
             <mxPoint x="-351" y="642" as="sourcePoint" />
             <mxPoint x="-191" y="642" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZxXQtbpwGY2kYPrQie2g-1" parent="1" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; text-align: left;&quot;&gt;&lt;b&gt;&lt;u&gt;ProductCosmeticIngr&lt;/u&gt;&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;商品SKU美妆成分表&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp; skuId 商品SKU ID&amp;nbsp;&lt;div&gt;&amp;nbsp; certInfo 资质信息ID&amp;nbsp;&amp;nbsp;&lt;br&gt;&amp;nbsp; certDocTypeId&amp;nbsp;配方全成分表文件类型id&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; docApprId&amp;nbsp;商品资质信息文件状态id&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="142" width="273" x="-618" y="1081" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxXQtbpwGY2kYPrQie2g-2" parent="1" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; text-align: left;&quot;&gt;&lt;b&gt;&lt;u&gt;ProductCosmeticIngrEntry&lt;/u&gt;&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;商品SKU美妆成分明细&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp;&amp;nbsp;" vertex="1">
+          <mxGeometry height="80" width="180" x="-571.5" y="1338" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxXQtbpwGY2kYPrQie2g-3" edge="1" parent="1" source="ZxXQtbpwGY2kYPrQie2g-2" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="ZxXQtbpwGY2kYPrQie2g-1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-206" y="1285" as="sourcePoint" />
+            <mxPoint x="-206" y="1202" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZxXQtbpwGY2kYPrQie2g-4" connectable="0" parent="ZxXQtbpwGY2kYPrQie2g-3" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" value="0..n" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <mxPoint x="10" y="-30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZxXQtbpwGY2kYPrQie2g-5" connectable="0" parent="ZxXQtbpwGY2kYPrQie2g-3" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" value="1" vertex="1">
+          <mxGeometry relative="1" x="1" as="geometry">
+            <mxPoint x="20" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
