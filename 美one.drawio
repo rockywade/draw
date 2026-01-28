@@ -1089,8 +1089,8 @@
             <mxPoint x="-115" y="428" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iY_ZJdaE38zrkTryD6IR-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;spacing=0;" value="&lt;b&gt;dataType&lt;/b&gt;&lt;br&gt;origin：CertCompanyDocType或者CertSkuDocType关联&lt;br&gt;cert：资质信息关联&lt;br&gt;appr：审核单关联" vertex="1">
-          <mxGeometry height="81" width="322" x="-153" y="486" as="geometry" />
+        <mxCell id="iY_ZJdaE38zrkTryD6IR-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;spacing=0;" value="&lt;b&gt;dataType&lt;/b&gt;&lt;br&gt;origin：CertCompanyDocType或者CertSkuDocType关联&lt;br&gt;cert：资质信息关联&lt;br&gt;appr：审核单关联&lt;br&gt;&lt;b&gt;subjectType&lt;/b&gt;&lt;div&gt;Brand:品牌&lt;br&gt;Offer:Offer&lt;br&gt;Sku:商品SKU&lt;/div&gt;" vertex="1">
+          <mxGeometry height="126" width="322" x="-153" y="465" as="geometry" />
         </mxCell>
         <mxCell id="iY_ZJdaE38zrkTryD6IR-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;b&gt;dataType&lt;br&gt;sku:商品SKU&lt;/b&gt;&lt;div&gt;&lt;b&gt;offerSku:offer关联的商品sku&lt;/b&gt;&lt;br&gt;&lt;b&gt;offerGift:offer赠品sku&lt;/b&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="86" width="184" x="-942" y="155" as="geometry" />
