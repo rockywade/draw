@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.0" pages="23">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.6" pages="23">
   <diagram name="商品" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">
     <mxGraphModel dx="1242" dy="1974" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="0" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -918,6 +918,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="pxVAONNM2juBGcfnUNNN-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;imageAspect=1;fillColor=none;dashed=1;dashPattern=8 8;glass=0;shadow=0;" value="" vertex="1">
+          <mxGeometry height="380" width="350" x="113" y="40" as="geometry" />
+        </mxCell>
         <mxCell id="PbW5qiwsdzICnOcbVt3K-1" parent="1" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;QcCertAppr&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;QC资质审核表&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp; offerSpuId&amp;nbsp; offerId&lt;br&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="70" width="160" x="-427" as="geometry" />
         </mxCell>
@@ -959,14 +962,14 @@
             <mxPoint x="20" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ydibEglt0In1S4E0ARg2-7" parent="1" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;CertDocType&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;资质文件类型&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp; companyCertInfo&amp;nbsp; &amp;nbsp; &amp;nbsp;商家资质&lt;br&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;productSkuCertInfo 产品资质&lt;br&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="100" width="180" x="-447" y="350" as="geometry" />
+        <mxCell id="ydibEglt0In1S4E0ARg2-7" parent="1" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;CertDocType&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;资质文件类型&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp; companyCertInfo&amp;nbsp; &amp;nbsp; &amp;nbsp;商家资质&lt;br&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;productSkuCertInfo 产品资质&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;dataType&amp;nbsp;原始的:origin/资质信息中的:cert/审核单中的:appr&lt;/p&gt;" vertex="1">
+          <mxGeometry height="100" width="180" x="-447" y="561" as="geometry" />
         </mxCell>
-        <mxCell id="ydibEglt0In1S4E0ARg2-9" edge="1" parent="1" source="ydibEglt0In1S4E0ARg2-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ydibEglt0In1S4E0ARg2-7" value="">
+        <mxCell id="ydibEglt0In1S4E0ARg2-9" edge="1" parent="1" source="ydibEglt0In1S4E0ARg2-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ydibEglt0In1S4E0ARg2-7" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ydibEglt0In1S4E0ARg2-8" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="资质文件类型和商家资质是多对一关系&lt;br&gt;资质文件类型和产品资质是多对一关系" vertex="1">
-          <mxGeometry height="40" width="230" x="-827" y="380" as="geometry" />
+          <mxGeometry height="40" width="230" x="-827" y="591" as="geometry" />
         </mxCell>
         <mxCell id="ydibEglt0In1S4E0ARg2-11" edge="1" parent="1" source="ydibEglt0In1S4E0ARg2-7" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" target="PbW5qiwsdzICnOcbVt3K-3" value="Use">
           <mxGeometry relative="1" width="160" as="geometry">
@@ -981,10 +984,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ydibEglt0In1S4E0ARg2-13" parent="1" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;CertDoc&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;资质文件表&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp;&amp;nbsp;" vertex="1">
-          <mxGeometry height="80" width="180" x="-450" y="724" as="geometry" />
+          <mxGeometry height="80" width="180" x="-450" y="975" as="geometry" />
         </mxCell>
         <mxCell id="ydibEglt0In1S4E0ARg2-17" parent="1" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;CertDocAttachment&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;资质文件附件表&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp;&amp;nbsp;" vertex="1">
-          <mxGeometry height="80" width="180" x="-450" y="887" as="geometry" />
+          <mxGeometry height="80" width="180" x="-450" y="1138" as="geometry" />
         </mxCell>
         <mxCell id="ydibEglt0In1S4E0ARg2-18" edge="1" parent="1" source="ydibEglt0In1S4E0ARg2-17" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="ydibEglt0In1S4E0ARg2-13" value="">
           <mxGeometry relative="1" as="geometry">
@@ -1003,7 +1006,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ydibEglt0In1S4E0ARg2-21" parent="1" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;CertDocAppr&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;资质文件审核表&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp;&amp;nbsp;" vertex="1">
-          <mxGeometry height="80" width="180" x="-447" y="540" as="geometry" />
+          <mxGeometry height="80" width="180" x="-447" y="791" as="geometry" />
         </mxCell>
         <mxCell id="ydibEglt0In1S4E0ARg2-22" edge="1" parent="1" source="ydibEglt0In1S4E0ARg2-21" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="ydibEglt0In1S4E0ARg2-7" value="">
           <mxGeometry relative="1" as="geometry">
@@ -1022,7 +1025,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ydibEglt0In1S4E0ARg2-25" parent="1" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;CertDocApprComment&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;资质文件审核记录表&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp;&amp;nbsp;" vertex="1">
-          <mxGeometry height="80" width="180" x="-151" y="540" as="geometry" />
+          <mxGeometry height="80" width="180" x="-151" y="791" as="geometry" />
         </mxCell>
         <mxCell id="ydibEglt0In1S4E0ARg2-26" edge="1" parent="1" source="ydibEglt0In1S4E0ARg2-25" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="ydibEglt0In1S4E0ARg2-21" value="">
           <mxGeometry relative="1" as="geometry">
@@ -1043,14 +1046,11 @@
         <mxCell id="ydibEglt0In1S4E0ARg2-30" parent="1" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;CertCompanyDocType&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;商家和资质文件类型关联配置表&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp; certDocType&amp;nbsp;&amp;nbsp;资质文件类型" vertex="1">
           <mxGeometry height="70" width="180" x="183" y="310" as="geometry" />
         </mxCell>
-        <mxCell id="ydibEglt0In1S4E0ARg2-31" parent="1" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;CertSkuDocType&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;Sku和offer资质文件类型关联配置表&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp; certDocType&amp;nbsp;&amp;nbsp;资质文件类型" vertex="1">
-          <mxGeometry height="70" width="200" x="173" y="180" as="geometry" />
+        <mxCell id="ydibEglt0In1S4E0ARg2-31" parent="1" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;CertSkuDocType&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;Sku和offer资质文件类型关联配置表&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp; certDocType&amp;nbsp;&amp;nbsp;资质文件类型&amp;nbsp;&amp;nbsp;&lt;div&gt;&amp;nbsp; dataType: offer或者sku&lt;/div&gt;" vertex="1">
+          <mxGeometry height="83" width="200" x="173" y="180" as="geometry" />
         </mxCell>
         <mxCell id="ydibEglt0In1S4E0ARg2-32" parent="1" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;CertApprGroupConfig&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;审批配置表&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp;&amp;nbsp;" vertex="1">
           <mxGeometry height="70" width="150" x="198" y="70" as="geometry" />
-        </mxCell>
-        <mxCell id="pxVAONNM2juBGcfnUNNN-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;imageAspect=1;fillColor=none;dashed=1;dashPattern=8 8;glass=0;shadow=0;" value="" vertex="1">
-          <mxGeometry height="380" width="350" x="113" y="40" as="geometry" />
         </mxCell>
         <mxCell id="pxVAONNM2juBGcfnUNNN-7" parent="1" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" value="&lt;font color=&quot;#ff3333&quot;&gt;配置表&lt;/font&gt;" vertex="1">
           <mxGeometry height="40" width="100" x="238" as="geometry" />
@@ -1062,10 +1062,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ZxXQtbpwGY2kYPrQie2g-1" parent="1" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; text-align: left;&quot;&gt;&lt;b&gt;&lt;u&gt;ProductCosmeticIngr&lt;/u&gt;&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;商品SKU美妆成分表&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp; skuId 商品SKU ID&amp;nbsp;&lt;div&gt;&amp;nbsp; certInfo 资质信息ID&amp;nbsp;&amp;nbsp;&lt;br&gt;&amp;nbsp; certDocTypeId&amp;nbsp;配方全成分表文件类型id&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; docApprId&amp;nbsp;商品资质信息文件状态id&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="142" width="273" x="-618" y="1081" as="geometry" />
+          <mxGeometry height="142" width="273" x="408" y="518" as="geometry" />
         </mxCell>
         <mxCell id="ZxXQtbpwGY2kYPrQie2g-2" parent="1" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; text-align: left;&quot;&gt;&lt;b&gt;&lt;u&gt;ProductCosmeticIngrEntry&lt;/u&gt;&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;商品SKU美妆成分明细&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp;&amp;nbsp;" vertex="1">
-          <mxGeometry height="80" width="180" x="-571.5" y="1338" as="geometry" />
+          <mxGeometry height="80" width="180" x="454.5" y="775" as="geometry" />
         </mxCell>
         <mxCell id="ZxXQtbpwGY2kYPrQie2g-3" edge="1" parent="1" source="ZxXQtbpwGY2kYPrQie2g-2" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="ZxXQtbpwGY2kYPrQie2g-1" value="">
           <mxGeometry relative="1" as="geometry">
@@ -1082,6 +1082,15 @@
           <mxGeometry relative="1" x="1" as="geometry">
             <mxPoint x="20" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="iY_ZJdaE38zrkTryD6IR-3" edge="1" parent="1" source="iY_ZJdaE38zrkTryD6IR-4" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="ydibEglt0In1S4E0ARg2-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-157" y="597.5" as="sourcePoint" />
+            <mxPoint x="-115" y="428" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iY_ZJdaE38zrkTryD6IR-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;spacing=0;" value="&lt;b&gt;dataType&lt;/b&gt;&lt;br&gt;origin：CertCompanyDocType或者CertSkuDocType关联&lt;br&gt;cert：资质信息关联&lt;br&gt;appr：审核单关联" vertex="1">
+          <mxGeometry height="81" width="322" x="-151" y="570.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
