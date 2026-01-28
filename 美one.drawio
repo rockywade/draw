@@ -1093,9 +1093,9 @@
           <mxGeometry height="81" width="322" x="-151" y="570.5" as="geometry" />
         </mxCell>
         <mxCell id="iY_ZJdaE38zrkTryD6IR-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;b&gt;dataType&lt;br&gt;sku:商品SKU&lt;/b&gt;&lt;div&gt;&lt;b&gt;offerSku:offer关联的商品sku&lt;/b&gt;&lt;br&gt;&lt;b&gt;offerGift:offer赠品sku&lt;/b&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="184" x="-846" y="63" as="geometry" />
+          <mxGeometry height="86" width="184" x="-950" y="65" as="geometry" />
         </mxCell>
-        <mxCell id="iY_ZJdaE38zrkTryD6IR-7" edge="1" parent="1" source="iY_ZJdaE38zrkTryD6IR-6" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="PbW5qiwsdzICnOcbVt3K-2" value="">
+        <mxCell id="iY_ZJdaE38zrkTryD6IR-7" edge="1" parent="1" source="iY_ZJdaE38zrkTryD6IR-6" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="PbW5qiwsdzICnOcbVt3K-2" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="-713" y="239" as="sourcePoint" />
             <mxPoint x="-663" y="189" as="targetPoint" />
