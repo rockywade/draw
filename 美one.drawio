@@ -963,13 +963,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ydibEglt0In1S4E0ARg2-7" parent="1" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;u&gt;CertDocType&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;资质文件类型&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp; companyCertInfo&amp;nbsp; &amp;nbsp; &amp;nbsp;商家资质&lt;br&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;productSkuCertInfo 产品资质&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;dataType&amp;nbsp;原始的:origin/资质信息中的:cert/审核单中的:appr&lt;/p&gt;" vertex="1">
-          <mxGeometry height="100" width="180" x="-447" y="561" as="geometry" />
+          <mxGeometry height="100" width="180" x="-447" y="478" as="geometry" />
         </mxCell>
         <mxCell id="ydibEglt0In1S4E0ARg2-9" edge="1" parent="1" source="ydibEglt0In1S4E0ARg2-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ydibEglt0In1S4E0ARg2-7" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ydibEglt0In1S4E0ARg2-8" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="资质文件类型和商家资质是多对一关系&lt;br&gt;资质文件类型和产品资质是多对一关系" vertex="1">
-          <mxGeometry height="40" width="230" x="-827" y="591" as="geometry" />
+          <mxGeometry height="40" width="230" x="-816" y="508" as="geometry" />
         </mxCell>
         <mxCell id="ydibEglt0In1S4E0ARg2-11" edge="1" parent="1" source="ydibEglt0In1S4E0ARg2-7" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" target="PbW5qiwsdzICnOcbVt3K-3" value="Use">
           <mxGeometry relative="1" width="160" as="geometry">
@@ -1090,10 +1090,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="iY_ZJdaE38zrkTryD6IR-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;spacing=0;" value="&lt;b&gt;dataType&lt;/b&gt;&lt;br&gt;origin：CertCompanyDocType或者CertSkuDocType关联&lt;br&gt;cert：资质信息关联&lt;br&gt;appr：审核单关联" vertex="1">
-          <mxGeometry height="81" width="322" x="-151" y="570.5" as="geometry" />
+          <mxGeometry height="81" width="322" x="-153" y="486" as="geometry" />
         </mxCell>
         <mxCell id="iY_ZJdaE38zrkTryD6IR-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;b&gt;dataType&lt;br&gt;sku:商品SKU&lt;/b&gt;&lt;div&gt;&lt;b&gt;offerSku:offer关联的商品sku&lt;/b&gt;&lt;br&gt;&lt;b&gt;offerGift:offer赠品sku&lt;/b&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="86" width="184" x="-950" y="65" as="geometry" />
+          <mxGeometry height="86" width="184" x="-942" y="155" as="geometry" />
         </mxCell>
         <mxCell id="iY_ZJdaE38zrkTryD6IR-7" edge="1" parent="1" source="iY_ZJdaE38zrkTryD6IR-6" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="PbW5qiwsdzICnOcbVt3K-2" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
