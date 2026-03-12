@@ -914,7 +914,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="apyGPRxjoDRJVZl47RXx" name="QC资质审批">
-    <mxGraphModel dx="2888" dy="1863" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3299" dy="2094" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1111,7 +1111,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="HyIC80OKXms1DehSLz9e-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontStyle=1;labelPosition=center;verticalLabelPosition=middle;" value="&lt;span&gt;dataType: 品牌资质brand&amp;nbsp; 审批单companyBrand&lt;/span&gt;" vertex="1">
-          <mxGeometry height="22" width="182" x="-100" y="-4" as="geometry" />
+          <mxGeometry height="22" width="182" x="-95" y="70" as="geometry" />
         </mxCell>
         <mxCell id="HyIC80OKXms1DehSLz9e-2" edge="1" parent="1" source="HyIC80OKXms1DehSLz9e-1" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="PbW5qiwsdzICnOcbVt3K-3" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
